@@ -2,18 +2,30 @@
 
 Jeu cellulaire écrit en C.
 
+
 ## Installation :
 
-Téléchargez ce repo, décompressez-le. Dans le terminal, placez vous dans le dossier décompressé puis compilez le programme en utilisant make :
+Téléchargez ce repo en utilisant git. Placez vous dans le dossier puis compilez le programme en utilisant make :
 
-	cd <LIEN VERS LE DOSSIER>
+	git clone https://github.com/valentinp72/JeuDeLaVie.git
+	cd JeuDeLaVie
 	make
+
 
 ## Utilisation :
 
-Placez vous dans le dossier où est le programme (avec cd), puis éxécutez le programme :
+Soyez sûr d'être dans le répertoire téléchargé, puis éxécutez le programme :
 
 	 ./JeuCellulaire
+
+
+## Mise à jour :
+
+Pour effectuer une mise à jour exécutez les commandes suivantes :
+
+	cd JeuDeLaVie
+	git pull
+	make
 
 
 ## Licence
